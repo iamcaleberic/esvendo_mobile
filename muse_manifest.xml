@@ -1,0 +1,150 @@
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.esvendo.org" resolutions="1x" timestamp="1460749172667">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_a-master-brk-1.css" crc="3950126859" ref="index:products:contact-us:about-us:how-it-works"/>
+    <file name="nomq_preview_master_a-master-brk-1.css" crc="4109834817" ref="index:products:contact-us:about-us:how-it-works"/>
+    <file name="index.css" crc="4168448797" ref="index"/>
+    <file name="nomq_index.css" crc="494034039" ref="index"/>
+    <file name="iefonts_index.css" crc="321525473" ref="index"/>
+    <file name="products.css" crc="3852233248" ref="products"/>
+    <file name="nomq_products.css" crc="3941997932" ref="products"/>
+    <file name="iefonts_products.css" crc="321525473" ref="products"/>
+    <file name="contact-us.css" crc="4074294569" ref="contact-us"/>
+    <file name="nomq_contact-us.css" crc="3908482978" ref="contact-us"/>
+    <file name="iefonts_contact-us.css" crc="321525473" ref="contact-us"/>
+    <file name="about-us.css" crc="3948358119" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="437988973" ref="about-us"/>
+    <file name="iefonts_about-us.css" crc="321525473" ref="about-us"/>
+    <file name="how-it-works.css" crc="192615602" ref="how-it-works"/>
+    <file name="nomq_how-it-works.css" crc="4150517323" ref="how-it-works"/>
+    <file name="iefonts_how-it-works.css" crc="321525473" ref="how-it-works"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="207176553" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="museutils.js" crc="3790713428" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="whatinput.js" crc="84559013" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3918880840" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="pie.js" crc="3827607177" ref="index:about-us:products:how-it-works"/>
+    <file name="jquery.watch.js" crc="4244854265" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="webpro.js" crc="329496574" ref="index:contact-us"/>
+    <file name="musewpslideshow.js" crc="394033048" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4265131668" ref="index"/>
+    <file name="touchswipe.js" crc="497316881" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3895133147" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="form_check.php" crc="167865897" ref="contact-us"/>
+    <file name="form_process.php" crc="3807774000" ref="contact-us"/>
+    <file name="recaptchalib.php" crc="385583985" ref="contact-us"/>
+    <file name="form-u14579.php" crc="354281151" ref="contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="ero-flower.jpg" crc="361937294" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="hero-image-vending-machine.png" crc="4189071097" seo="true" ref="index"/>
+    <file name="esvendo-logo-2.png" crc="418496412" seo="true" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="students_at_lupani_conservation_primary_school_in_zambia_9426431014_o.jpg" crc="4099403935" ref="index"/>
+    <file name="bintipamoja.jpg" crc="3894756259" seo="true" ref="index:contact-us"/>
+    <file name="shofco-u198.png" crc="4056416321" ref="index"/>
+    <file name="kibearaacademy-crop-u200.jpg" crc="509081058" ref="index"/>
+    <file name="daipers hero 2-u181.png" crc="208403869" ref="index"/>
+    <file name="pad here-u183.png" crc="4088421759" ref="index"/>
+    <file name="mobile.png" crc="100517101" seo="true" ref="index:about-us"/>
+    <file name="human-resources.svg" crc="4050202139" ref="index:about-us:products:how-it-works"/>
+    <file name="human-resources_poster_.png" crc="3983771241" ref="index"/>
+    <file name="phone-contact.svg" crc="112605406" ref="index:about-us:products:how-it-works"/>
+    <file name="phone-contact_poster_.png" crc="115943199" ref="index"/>
+    <file name="12girls6001.jpg" crc="48599608" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="managing-menstruation.jpg" crc="3843509690" seo="true" ref="index"/>
+    <file name="img_20160304_101620.jpg" crc="4053145901" seo="true" ref="index"/>
+    <file name="img_20160304_105920.jpg" crc="509067345" seo="true" ref="index"/>
+    <file name="00220304-f9cd886a0efa67eed3cdd5fb406ea923-arc614x376-w614-us1.jpg" crc="361040973" seo="true" ref="index"/>
+    <file name="left_behind_girl.jpg" crc="4102950252" seo="true" ref="index"/>
+    <file name="photo-for-maria-and-rachael.jpg" crc="20294619" seo="true" ref="index"/>
+    <file name="img_20160304_113022.jpg" crc="4026855837" seo="true" ref="index"/>
+    <file name="workshop-wide-smiles-web.jpg" crc="3814296530" seo="true" ref="index"/>
+    <file name="managing-menstruation344x230.jpg" crc="4250105261" seo="true" ref="index"/>
+    <file name="img_20160304_101620344x215.jpg" crc="56814635" seo="true" ref="index"/>
+    <file name="img_20160304_105920344x258.jpg" crc="473123601" seo="true" ref="index"/>
+    <file name="left_behind_girl344x228.jpg" crc="4154560765" seo="true" ref="index"/>
+    <file name="photo-for-maria-and-rachael344x215.jpg" crc="4073352657" seo="true" ref="index"/>
+    <file name="workshop-wide-smiles-web-crop-u132.jpg" crc="268146060" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="twitter-button.svg" crc="171841282" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="twitter button_poster_.png" crc="3767887397" ref="index"/>
+    <file name="facebook-button.svg" crc="443299185" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="facebook button_poster_.png" crc="152025958" ref="index"/>
+    <file name="google--button.svg" crc="3896711422" ref="index:about-us:products:how-it-works:contact-us"/>
+    <file name="google- button_poster_.png" crc="274436869" ref="index"/>
+    <file name="hero-image-vending-machine630x421.png" crc="487360064" seo="true" ref="index"/>
+    <file name="shofco-u1982.png" crc="4056416321" ref="index"/>
+    <file name="kibearaacademy-crop-u2002.jpg" crc="509081058" ref="index"/>
+    <file name="daipers hero 2-u1812.png" crc="490184874" ref="index"/>
+    <file name="pad here-u1832.png" crc="4291222713" ref="index"/>
+    <file name="workshop-wide-smiles-web-crop-u1322.jpg" crc="268146060" ref="index"/>
+    <file name="hero-image-vending-machine351x235.png" crc="3997492944" seo="true" ref="index"/>
+    <file name="shofco-u1983.png" crc="4056416321" ref="index"/>
+    <file name="kibearaacademy-crop-u2003.jpg" crc="509081058" ref="index"/>
+    <file name="daipers hero 2-u1813.png" crc="3806055096" ref="index"/>
+    <file name="pad here-u1833.png" crc="3865376644" ref="index"/>
+    <file name="workshop-wide-smiles-web-crop-u1323.jpg" crc="268146060" ref="index"/>
+    <file name="avatar_afro_guy-512.png" crc="172733376" seo="true" ref="about-us"/>
+    <file name="avatar_basketball_guy-512.png" crc="4264250834" seo="true" ref="about-us"/>
+    <file name="avatar_fashion_girl-512.png" crc="125232039" seo="true" ref="about-us"/>
+    <file name="avatar_afro_guy-512174x174.png" crc="3901137056" seo="true" ref="about-us"/>
+    <file name="avatar_basketball_guy-512174x174.png" crc="272431074" seo="true" ref="about-us"/>
+    <file name="avatar_afro_guy-51297x97.png" crc="308486431" seo="true" ref="about-us"/>
+    <file name="avatar_basketball_guy-51298x98.png" crc="54438626" seo="true" ref="about-us"/>
+    <file name="pad here.png" crc="153519637" seo="true" ref="products"/>
+    <file name="daipers hero 2.png" crc="3920850196" seo="true" ref="products"/>
+    <file name="hero-image-vending-machine568x380.png" crc="4093934360" seo="true" ref="products"/>
+    <file name="pad here243x218.png" crc="4134427634" seo="true" ref="products"/>
+    <file name="hero-image-vending-machine453x304.png" crc="3794143667" seo="true" ref="products"/>
+    <file name="pad here145x130.png" crc="3977602520" seo="true" ref="products"/>
+    <file name="daipers hero 2134x115.png" crc="3958218493" seo="true" ref="products"/>
+    <file name="hero-image-vending-machine252x169.png" crc="4173075239" seo="true" ref="products"/>
+    <file name="purchase-icon-2.jpg" crc="4052874398" seo="true" ref="how-it-works"/>
+    <file name="map-2.jpg" crc="3780353230" ref="how-it-works"/>
+    <file name="00220304-f9cd886a0efa67eed3cdd5fb406ea923-arc614x376-w614-us1281x172.jpg" crc="3897891691" seo="true" ref="how-it-works"/>
+    <file name="photo-for-maria-and-rachael342x214.jpg" crc="4054489300" seo="true" ref="how-it-works"/>
+    <file name="payment-icon-2.jpg" crc="517332550" seo="true" ref="how-it-works"/>
+    <file name="00220304-f9cd886a0efa67eed3cdd5fb406ea923-arc614x376-w614-us1275x168.jpg" crc="28949819" seo="true" ref="how-it-works"/>
+    <file name="00220304-f9cd886a0efa67eed3cdd5fb406ea923-arc614x376-w614-us1242x149.jpg" crc="289805630" seo="true" ref="how-it-works"/>
+    <file name="photo-for-maria-and-rachael342x214-crop-u14070.jpg" crc="89575312" ref="how-it-works"/>
+    <file name="kibearaacademy-u14602.png" crc="3844098812" ref="contact-us"/>
+    <file name="shofco-u14604.png" crc="4074789543" ref="contact-us"/>
+    <file name="bintipamoja-u14606.png" crc="4025105822" ref="contact-us"/>
+    <file name="u14580-17.png" crc="311828129" ref="contact-us"/>
+    <file name="u14580-17-r.png" crc="3844863548" ref="contact-us"/>
+    <file name="u14580-17-m.png" crc="446077895" ref="contact-us"/>
+    <file name="u14580-17-fs.png" crc="51175883" ref="contact-us"/>
+    <file name="recaptchamodeaudio.png" crc="321387380" ref="contact-us"/>
+    <file name="recaptchamodeaudiorollover.jpg" crc="4012741543" ref="contact-us"/>
+    <file name="recaptchamodeaudiomousedown.jpg" crc="169475968" ref="contact-us"/>
+    <file name="recaptchamodeimage.png" crc="484269603" ref="contact-us"/>
+    <file name="recaptchamodeimagerollover.jpg" crc="81540066" ref="contact-us"/>
+    <file name="recaptchamodeimagemousedown.jpg" crc="303121703" ref="contact-us"/>
+    <file name="recaptcharefresh.png" crc="47393460" ref="contact-us"/>
+    <file name="recaptcharefreshrollover.jpg" crc="155564821" ref="contact-us"/>
+    <file name="recaptcharefreshmousedown.jpg" crc="4225227046" ref="contact-us"/>
+    <file name="recaptchahelp.png" crc="131403934" ref="contact-us"/>
+    <file name="recaptchahelprollover.jpg" crc="3948161619" ref="contact-us"/>
+    <file name="recaptchahelpmousedown.jpg" crc="47105717" ref="contact-us"/>
+    <file name="shofco-u146042.png" crc="3910339160" ref="contact-us"/>
+    <file name="kibearaacademy-u146022.png" crc="3927383042" ref="contact-us"/>
+    <file name="u14580-172.png" crc="311828129" ref="contact-us"/>
+    <file name="u14580-17-r2.png" crc="3844863548" ref="contact-us"/>
+    <file name="u14580-17-m2.png" crc="446077895" ref="contact-us"/>
+    <file name="u14580-17-fs2.png" crc="51175883" ref="contact-us"/>
+    <file name="shofco-u146043.png" crc="146973507" ref="contact-us"/>
+    <file name="bintipamoja-u146062.png" crc="34139088" ref="contact-us"/>
+    <file name="kibearaacademy-u146023.png" crc="46339334" ref="contact-us"/>
+    <file name="u14580-173.png" crc="311828129" ref="contact-us"/>
+    <file name="u14580-17-r3.png" crc="3844863548" ref="contact-us"/>
+    <file name="u14580-17-m3.png" crc="446077895" ref="contact-us"/>
+    <file name="u14580-17-fs3.png" crc="51175883" ref="contact-us"/>
+  </folder>
+  <file name="index.html" crc="3815675027" seo="true" mt="1460748950986" redirect="true"/>
+  <file name="about-us.html" crc="4163610180" seo="true" mt="1460748950986" redirect="true"/>
+  <file name="products.html" crc="491194593" seo="true" mt="1460748950986" redirect="true"/>
+  <file name="how-it-works.html" crc="4287772600" seo="true" mt="1460748950986" redirect="true"/>
+  <file name="contact-us.html" crc="3849160476" seo="true" mt="1460748950986" redirect="true"/>
+</manifest>

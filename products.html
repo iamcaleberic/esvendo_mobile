@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html class="nojs html" lang="en-GB">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.museresponsive.js", "products.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.1.2.344"/>
+  <title>Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master-brk-1.css?3950126859"/>
+  <link rel="stylesheet" type="text/css" href="css/products.css?3852233248" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_products.css?321525473"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master-brk-1.css?4109834817"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_products.css?3941997932" id="nomq_pagesheet"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n4,i7,n3,i6:default.js" type="text/javascript">\x3C/script>');
+</script>
+    <!--HTML Widget code-->
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+.buttonopen {
+display: block;
+background: #E90D8B;
+color: #FFFFFF;
+font-size: 24px;
+font-family: inherit;
+padding: 10px 20px;
+margin: auto;
+outline: none;
+border-radius: 2px;
+letter-spacing: 1px;
+cursor: pointer;
+cursor: url(Add File), auto;
+}
+
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(226,30,121,0.9);
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: transparent;
+	background: url(Add File) no-repeat center center;
+	color: #FFFFFF;
+	font-size: 32px;
+	outline: none;
+	cursor: pointer;
+	cursor: url(Add File), auto;
+	z-index: 100;
+}
+
+.overlay-close:hover {
+	color: #E90D8B;
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	font-size: 54px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 24px;
+	height: 24%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+}
+
+.overlay ul li a {
+	font-weight: 300;
+	display: block;
+	color: #FFFFFF;
+	font-family: inherit;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	cursor: url(Add File), auto;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #E90D8B;
+}
+
+/* Effects */
+.overlay-slidedown {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+.overlay-slidedown.open {
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+}
+</style>
+<script>
+/* Modernizr 2.7.1 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load
+ */
+;window.Modernizr=function(a,b,c){function x(a){j.cssText=a}function y(a,b){return x(prefixes.join(a+";")+(b||""))}function z(a,b){return typeof a===b}function A(a,b){return!!~(""+a).indexOf(b)}function B(a,b){for(var d in a){var e=a[d];if(!A(e,"-")&&j[e]!==c)return b=="pfx"?e:!0}return!1}function C(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:z(f,"function")?f.bind(d||b):f}return!1}function D(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+n.join(d+" ")+d).split(" ");return z(b,"string")||z(b,"undefined")?B(e,b):(e=(a+" "+o.join(d+" ")+d).split(" "),C(e,b,c))}var d="2.7.1",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m="Webkit Moz O ms",n=m.split(" "),o=m.toLowerCase().split(" "),p={},q={},r={},s=[],t=s.slice,u,v={}.hasOwnProperty,w;!z(v,"undefined")&&!z(v.call,"undefined")?w=function(a,b){return v.call(a,b)}:w=function(a,b){return b in a&&z(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=t.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(t.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(t.call(arguments)))};return e}),p.csstransitions=function(){return D("transition")};for(var E in p)w(p,E)&&(u=E.toLowerCase(),e[u]=p[E](),s.push((e[u]?"":"no-")+u));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)w(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},x(""),i=k=null,function(a,b){function l(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a=="string"?a.split(" "):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/[\w\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),k||q(a,c),a}var c="3.7.0",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h="_html5shiv",i=0,j={},k;(function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",g="hidden"in a,k=a.childNodes.length==1||function(){b.createElement("a");var a=b.createDocumentFragment();return typeof a.cloneNode=="undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:"default",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._domPrefixes=o,e._cssomPrefixes=n,e.testProp=function(a){return B([a])},e.testAllProps=D,e.prefixed=function(a,b,c){return b?D(a,b,c):D(a,"pfx")},g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+s.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};
+</script>
+
+ </head>
+ <body>
+
+  <div class="breakpoint active" id="bp_infinity" data-min-width="953"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="position_content" id="page_position_content">
+     <div class="clearfix colelem" id="ppbuttonu10413"><!-- group -->
+      <div class="clearfix grpelem" id="pbuttonu10413"><!-- group -->
+       <div id="buttonu10413-wrapper">
+        <a class="nonblock nontext Button clearfix" id="buttonu10413" href="index.html"><!-- container box --><div class="clearfix grpelem" id="u10414-4"><!-- content --><p>HOME</p></div></a>
+       </div>
+       <div id="buttonu10417-wrapper">
+        <a class="nonblock nontext Button clearfix" id="buttonu10417" href="about-us.html"><!-- container box --><div class="clearfix grpelem" id="u10418-4"><!-- content --><p>WHO WE ARE</p></div></a>
+       </div>
+       <div id="buttonu10411-wrapper">
+        <a class="nonblock nontext Button ButtonSelected clearfix" id="buttonu10411" href="products.html"><!-- container box --><div class="clearfix grpelem" id="u10412-4"><!-- content --><p>PRODUCTS</p></div></a>
+       </div>
+       <div id="buttonu10419-wrapper">
+        <a class="nonblock nontext Button clearfix" id="buttonu10419" href="how-it-works.html"><!-- container box --><div class="clearfix grpelem" id="u10420-4"><!-- content --><p>HOW IT WORKS</p></div></a>
+       </div>
+       <div id="buttonu10415-wrapper">
+        <a class="nonblock nontext Button clearfix" id="buttonu10415" href="contact-us.html"><!-- container box --><div class="clearfix grpelem" id="u10416-4"><!-- content --><p>CONTACT US</p></div></a>
+       </div>
+      </div>
+      <div class="browser_width shared_content" id="u7161-bw" data-content-guid="u7161-bw_content">
+       <div id="u7161"><!-- simple frame --></div>
+      </div>
+      <div class="clip_frame" id="u7171"><!-- image -->
+       <img class="block temp_no_img_src" id="u7171_img" data-orig-src="images/esvendo-logo-2.png" alt="" data-image-width="140" data-image-height="47" src="images/blank.gif"/>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu9446" data-content-guid="pu9446_content"><!-- group -->
+      <div class="grpelem shared_content" id="u9446" data-content-guid="u9446_content"><!-- simple frame --></div>
+      <div class="browser_width grpelem" id="u13674-bw">
+       <div class="museBGSize" id="u13674"><!-- group -->
+        <div class="clearfix" id="u13674_align_to_page">
+         <div class="clearfix grpelem shared_content" id="u13676-4" data-content-guid="u13676-4_content"><!-- content -->
+          <p>Products.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu13683"><!-- group -->
+      <div class="clip_frame grpelem" id="u13683"><!-- image -->
+       <img class="block temp_no_img_src" id="u13683_img" data-orig-src="images/pad%20here.png" alt="" data-image-width="327" data-image-height="293" src="images/blank.gif"/>
+      </div>
+      <div class="clearfix grpelem" id="pu13677-4"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u13677-4" data-content-guid="u13677-4_content"><!-- content -->
+        <p id="u13677-2"><span id="u13677">Sanitary Pads</span></p>
+       </div>
+       <div class="clearfix colelem shared_content" id="u13680-5" data-content-guid="u13680-5_content"><!-- content -->
+        <p>&nbsp;</p>
+        <p>Our top quality pads are individually wrapped so they are easy and discreet to carry.</p>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width colelem" id="u13675-bw">
+      <div id="u13675"><!-- group -->
+       <div class="clearfix" id="u13675_align_to_page">
+        <div class="clearfix grpelem" id="pu13678-4"><!-- column -->
+         <div class="clearfix colelem shared_content" id="u13678-4" data-content-guid="u13678-4_content"><!-- content -->
+          <p id="u13678-2"><span id="u13678">Infant diapers</span></p>
+         </div>
+         <div class="clearfix colelem shared_content" id="u13681-6" data-content-guid="u13681-6_content"><!-- content -->
+          <p>&nbsp;</p>
+          <p id="u13681-4"><span id="u13681-2">We distribute high quality disposable Diapers that are made&nbsp; and supplied by trusted brands.</span><span id="u13681-3"></span></p>
+         </div>
+        </div>
+        <div class="clip_frame grpelem" id="u13685"><!-- image -->
+         <img class="block temp_no_img_src" id="u13685_img" data-orig-src="images/daipers%20hero%202.png" alt="" data-image-width="302" data-image-height="258" src="images/blank.gif"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu13687"><!-- group -->
+      <div class="clip_frame grpelem" id="u13687"><!-- image -->
+       <img class="block temp_no_img_src" id="u13687_img" data-orig-src="images/hero-image-vending-machine568x380.png" alt="" data-image-width="568" data-image-height="380" src="images/blank.gif"/>
+      </div>
+      <div class="clearfix grpelem" id="pu13679-4"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u13679-4" data-content-guid="u13679-4_content"><!-- content -->
+        <p id="u13679-2"><span id="u13679">Vending machine</span></p>
+       </div>
+       <div class="clearfix colelem shared_content" id="u13682-11" data-content-guid="u13682-11_content"><!-- content -->
+        <p id="u13682">&nbsp;</p>
+        <p id="u13682-3">EsVendo has integrated vending tools</p>
+        <p id="u13682-5">&nbsp;and positions them in safe places free from stigma to enable in</p>
+        <p id="u13682-7">distribution.</p>
+        <p id="u13682-8">&nbsp;</p>
+        <p id="u13682-9">&nbsp;</p>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu13560" data-content-guid="pu13560_content"><!-- group -->
+      <div class="clip_frame grpelem shared_content" id="u13560" data-content-guid="u13560_content"><!-- svg -->
+       <img class="svg temp_no_img_src" id="u15004" data-orig-src="images/phone-contact.svg" alt="" data-mu-svgfallback="images/phone-contact_poster_.png" data-image-width="102" data-image-height="102" src="images/blank.gif"/>
+      </div>
+      <div class="clip_frame grpelem shared_content" id="u13552" data-content-guid="u13552_content"><!-- svg -->
+       <img class="svg temp_no_img_src" id="u13553" data-orig-src="images/human-resources.svg" alt="" data-mu-svgfallback="images/human-resources_poster_.png" data-image-width="97" data-image-height="97" src="images/blank.gif"/>
+      </div>
+      <div class="clip_frame grpelem shared_content" id="u13568" data-content-guid="u13568_content"><!-- svg -->
+       <img class="svg temp_no_img_src" id="u13569" data-orig-src="images/phone-contact.svg" alt="" data-mu-svgfallback="images/phone-contact_poster_.png" data-image-width="93" data-image-height="93" src="images/blank.gif"/>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu13554-22" data-content-guid="pu13554-22_content"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u13554-22" data-content-guid="u13554-22_content"><!-- content -->
+       <p id="u13554-2">How it Works</p>
+       <p id="u13554-4">FROM YOUR MOBILE</p>
+       <p id="u13554-7">1.Dial <span id="u13554-6">*384*98#</span></p>
+       <p id="u13554-8">&nbsp;</p>
+       <p id="u13554-10">THEN</p>
+       <p id="u13554-13"><span id="u13554-11">2.</span><span id="u13554-12">Enter the vendor number.</span></p>
+       <p id="u13554-14">&nbsp;</p>
+       <p id="u13554-16">RECEIVE COUPON CODE</p>
+       <p id="u13554-19"><span id="u13554-17">3</span>.Show coupon to vendor to receive discounted price.</p>
+       <p id="u13554-20">&nbsp;</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u13567-6" data-content-guid="u13567-6_content"><!-- content -->
+       <p id="u13567-2">Our Partners</p>
+       <p id="u13567-4">We have teamed up with organizations like hospitals, schools and NGO's to ensure that we deliver on our promise.</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u13572-6" data-content-guid="u13572-6_content"><!-- content -->
+       <p id="u13572-2">Get Involved</p>
+       <p id="u13572-4">Get in touch with us to find out how you can join in our cause to improve the lives of thousands of under privileged women and girls in a sustainable way.</p>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu13548-4" data-content-guid="pu13548-4_content"><!-- group -->
+      <a class="nonblock nontext rgba-background rounded-corners clearfix grpelem shared_content" id="u13548-4" href="how-it-works.html" data-content-guid="u13548-4_content"><!-- content --><div id="u13548-3"><p>Learn More</p></div></a>
+      <a class="nonblock nontext rgba-background rounded-corners clearfix grpelem shared_content" id="u13555-4" href="contact-us.html#ourpartners" data-content-guid="u13555-4_content"><!-- content --><div id="u13555-3"><p>Learn More</p></div></a>
+      <a class="nonblock nontext rgba-background rounded-corners clearfix grpelem shared_content" id="u13562-4" href="contact-us.html#getinvolved" data-content-guid="u13562-4_content"><!-- content --><div id="u13562-3"><p>Learn More</p></div></a>
+     </div>
+     <div class="colelem shared_content" id="u14795" data-content-guid="u14795_content"><!-- simple frame --></div>
+     <div class="verticalspacer"></div>
+     <div class="browser_width colelem shared_content" id="u7031-bw" data-content-guid="u7031-bw_content">
+      <div id="u7031"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width colelem" id="u7013-bw">
+      <div id="u7013"><!-- column -->
+       <div class="clearfix" id="u7013_align_to_page">
+        <div class="position_content" id="u7013_position_content">
+         <div class="clearfix colelem" id="pu7014-4"><!-- group -->
+          <div class="clearfix grpelem shared_content" id="u7014-4" data-content-guid="u7014-4_content"><!-- content -->
+           <p>Site Map</p>
+          </div>
+          <div class="clearfix grpelem shared_content" id="u7021-4" data-content-guid="u7021-4_content"><!-- content -->
+           <p>Contact Us</p>
+          </div>
+          <div class="clearfix grpelem" id="u14962-4"><!-- content -->
+           <p>Visit Us</p>
+          </div>
+         </div>
+         <div class="colelem shared_content" id="u9595" data-content-guid="u9595_content"><!-- simple frame --></div>
+         <div class="colelem shared_content" id="u9452" data-content-guid="u9452_content"><!-- simple frame --></div>
+         <div class="colelem shared_content" id="u11808" data-content-guid="u11808_content"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="pu7023-4"><!-- group -->
+          <a class="nonblock nontext clearfix grpelem shared_content" id="u7023-4" href="index.html" data-content-guid="u7023-4_content"><!-- content --><p>Home</p></a>
+          <div class="clearfix grpelem" id="pu7029-5"><!-- column -->
+           <div class="clearfix colelem shared_content" id="u7029-5" data-content-guid="u7029-5_content"><!-- content -->
+            <p id="u7029-2">Phone: +254727916020</p>
+            <p id="u7029-3">&nbsp;</p>
+           </div>
+           <div class="clearfix colelem shared_content" id="u7030-4" data-content-guid="u7030-4_content"><!-- content -->
+            <p>info@esvendo.org</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem shared_content" id="u7028-4" data-content-guid="u7028-4_content"><!-- content -->
+           <p>4th Floor, Bishop Magua Centre, Ngong Rd, Nairobi, Kenya</p>
+          </div>
+         </div>
+         <a class="nonblock nontext clearfix colelem shared_content" id="u7024-4" href="about-us.html" data-content-guid="u7024-4_content"><!-- content --><p>Who we are</p></a>
+         <div class="clearfix colelem" id="ppu7025-4"><!-- group -->
+          <div class="clearfix grpelem" id="pu7025-4"><!-- column -->
+           <a class="nonblock nontext MuseLinkActive clearfix colelem shared_content" id="u7025-4" href="products.html" data-content-guid="u7025-4_content"><!-- content --><p>Products</p></a>
+           <a class="nonblock nontext clearfix colelem shared_content" id="u7026-4" href="how-it-works.html" data-content-guid="u7026-4_content"><!-- content --><p>How It Works</p></a>
+           <a class="nonblock nontext clearfix colelem shared_content" id="u11799-4" href="contact-us.html" data-content-guid="u11799-4_content"><!-- content --><p>Contact Us</p></a>
+          </div>
+          <div class="clearfix grpelem" id="u11839"><!-- group -->
+           <div class="clip_frame grpelem" id="u7038"><!-- svg -->
+            <img class="svg temp_no_img_src" id="u11828" data-orig-src="images/twitter-button.svg" alt="" data-mu-svgfallback="images/twitter%20button_poster_.png" data-image-width="56" data-image-height="51" src="images/blank.gif"/>
+           </div>
+           <div class="clip_frame grpelem" id="u7040"><!-- svg -->
+            <img class="svg temp_no_img_src" id="u7041" data-orig-src="images/facebook-button.svg" alt="" data-mu-svgfallback="images/facebook%20button_poster_.png" data-image-width="56" data-image-height="51" src="images/blank.gif"/>
+           </div>
+           <div class="clip_frame grpelem" id="u7042"><!-- svg -->
+            <img class="svg temp_no_img_src" id="u11817" data-orig-src="images/google--button.svg" alt="" data-mu-svgfallback="images/google-%20button_poster_.png" data-image-width="56" data-image-height="51" src="images/blank.gif"/>
+           </div>
+          </div>
+          <div class="clip_frame grpelem" id="u7045"><!-- image -->
+           <img class="block temp_no_img_src" id="u7045_img" data-orig-src="images/esvendo-logo-2.png" alt="" width="206" height="69" src="images/blank.gif"/>
+          </div>
+          <div class="grpelem" id="u10392"><!-- custom html -->
+           
+<iframe class="actAsDiv" width="252" height="208" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=ihub%20nairobi&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+
+</div>
+         </div>
+         <div class="clearfix colelem" id="u10387"><!-- group -->
+          <div class="grpelem" id="u10382"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u10357"><!-- group -->
+           <div class="clearfix grpelem" id="u10361"><!-- group -->
+            <div class="clearfix grpelem" id="u10358"><!-- group -->
+             <div class="clearfix grpelem" id="u10359-4"><!-- content -->
+              <p>Copyright © 2015 EsVEndo Nairobi</p>
+             </div>
+             <div class="clearfix grpelem" id="u10360-4"><!-- content -->
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About&nbsp; /&nbsp; Terms</p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_952" data-min-width="532" data-max-width="952"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clearfix colelem" id="pu7161"><!-- group -->
+      <span class="browser_width placeholder" data-placeholder-for="u7161-bw_content"><!-- placeholder node --></span>
+      <div class="clip_frame temp_no_id" data-orig-id="u7171"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/esvendo-logo-2.png" alt="" width="111" height="37" data-orig-id="u7171_img" src="images/blank.gif"/>
+      </div>
+      <div id="u14928" class="shared_content" data-content-guid="u14928_content"><!-- custom html -->
+       
+<p><button id="trigger-overlay" type="button" class="buttonopen"> Menu</button></p>
+<div class="overlay overlay-slidedown">
+  <button type="button" class="overlay-close"><i class="fa fa-close"></i></button>
+	<nav>
+	  <ul id="items">
+	  </ul>
+	</nav>
+</div>
+
+</div>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu9446_content"><!-- placeholder node --></span>
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u13683"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/pad%20here243x218.png" alt="" data-image-width="242" data-image-height="217" data-orig-id="u13683_img" src="images/blank.gif"/>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13677-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13680-5_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u13675-bw">
+      <div class="temp_no_id" data-orig-id="u13675"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u13675_align_to_page">
+        <div class="clip_frame colelem temp_no_id" data-orig-id="u13685"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/daipers%20hero%202.png" alt="" data-image-width="240" data-image-height="205" data-orig-id="u13685_img" src="images/blank.gif"/>
+        </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u13678-4_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u13681-6_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u13687"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/hero-image-vending-machine453x304.png" alt="" data-image-width="453" data-image-height="303" data-orig-id="u13687_img" src="images/blank.gif"/>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13679-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13682-11_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu13560_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu13554-22_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu13548-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u14795_content"><!-- placeholder node --></span>
+     <div class="verticalspacer"></div>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u7031-bw_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu7013"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u7013-bw">
+       <div class="temp_no_id" data-orig-id="u7013"><!-- column -->
+        <div class="clearfix temp_no_id" data-orig-id="u7013_align_to_page">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu7014-4"><!-- group -->
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u7014-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u7021-4_content"><!-- placeholder node --></span>
+         </div>
+         <span class="colelem placeholder" data-placeholder-for="u9595_content"><!-- placeholder node --></span>
+         <span class="colelem placeholder" data-placeholder-for="u9452_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu7023-4"><!-- group -->
+          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u7023-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u7029-5_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem" id="pu7024-4"><!-- group -->
+          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u7024-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u7030-4_content"><!-- placeholder node --></span>
+         </div>
+         <span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u7025-4_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem" id="pu7026-4"><!-- group -->
+          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u7026-4_content"><!-- placeholder node --></span>
+          <div class="clearfix grpelem temp_no_id" data-orig-id="u11839"><!-- group -->
+           <div class="clip_frame grpelem temp_no_id" data-orig-id="u7038"><!-- svg -->
+            <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/twitter-button.svg" width="200" height="200" alt="" data-mu-svgfallback="images/twitter%20button_poster_.png" data-orig-id="u11828" src="images/blank.gif"/>
+           </div>
+           <div class="clip_frame grpelem temp_no_id" data-orig-id="u7040"><!-- svg -->
+            <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook-button.svg" width="31" height="28" alt="" data-mu-svgfallback="images/facebook%20button_poster_.png" data-orig-id="u7041" src="images/blank.gif"/>
+           </div>
+           <div class="clip_frame grpelem temp_no_id" data-orig-id="u7042"><!-- svg -->
+            <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/google--button.svg" width="33" height="30" alt="" data-mu-svgfallback="images/google-%20button_poster_.png" data-orig-id="u11817" src="images/blank.gif"/>
+           </div>
+          </div>
+         </div>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u11799-4_content"><!-- placeholder node --></span>
+         <span class="colelem placeholder" data-placeholder-for="u11808_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem" id="pu7045"><!-- group -->
+          <div class="clip_frame grpelem temp_no_id" data-orig-id="u7045"><!-- image -->
+           <img class="block temp_no_id temp_no_img_src" data-orig-src="images/esvendo-logo-2.png" alt="" width="164" height="55" data-orig-id="u7045_img" src="images/blank.gif"/>
+          </div>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u7028-4_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u10770-bw">
+       <div id="u10770"><!-- custom html -->
+        
+<iframe class="actAsDiv" width="100%" height="281" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=ihub%20nairobi&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+
+</div>
+      </div>
+      <div class="browser_width grpelem shared_content" id="u7015-bw" data-content-guid="u7015-bw_content">
+       <div id="u7015"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem shared_content" id="u13479-4-bw" data-content-guid="u13479-4-bw_content">
+       <div class="clearfix" id="u13479-4"><!-- content -->
+        <p>Copyright © 2015 EsVEndo Nairobi</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_531" data-max-width="531"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu7161"><!-- group -->
+      <span class="browser_width placeholder" data-placeholder-for="u7161-bw_content"><!-- placeholder node --></span>
+      <div class="clip_frame temp_no_id" data-orig-id="u7171"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/esvendo-logo-2.png" alt="" data-image-width="127" data-image-height="43" data-orig-id="u7171_img" src="images/blank.gif"/>
+      </div>
+      <span class="placeholder" data-placeholder-for="u14928_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu9446"><!-- group -->
+      <span class="grpelem placeholder" data-placeholder-for="u9446_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u13674-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u13674"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem" id="u13676-4-bw">
+       <span class="clearfix placeholder" data-placeholder-for="u13676-4_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u13683"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/pad%20here145x130.png" alt="" data-image-width="145" data-image-height="129" data-orig-id="u13683_img" src="images/blank.gif"/>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13677-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13680-5_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u13675-bw">
+      <div class="temp_no_id" data-orig-id="u13675"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u13675_align_to_page">
+        <div class="clip_frame colelem temp_no_id" data-orig-id="u13685"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/daipers%20hero%202134x115.png" alt="" data-image-width="134" data-image-height="114" data-orig-id="u13685_img" src="images/blank.gif"/>
+        </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u13678-4_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u13681-6_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u13687"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/hero-image-vending-machine252x169.png" alt="" data-image-width="251" data-image-height="168" data-orig-id="u13687_img" src="images/blank.gif"/>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13679-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13682-11_content"><!-- placeholder node --></span>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u13560_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13554-22_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext rgba-background rounded-corners clearfix colelem placeholder" data-placeholder-for="u13548-4_content"><!-- placeholder node --></span>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u13552_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13567-6_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext rgba-background rounded-corners clearfix colelem placeholder" data-placeholder-for="u13555-4_content"><!-- placeholder node --></span>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u13568_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u13572-6_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext rgba-background rounded-corners clearfix colelem placeholder" data-placeholder-for="u13562-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u14795_content"><!-- placeholder node --></span>
+     <div class="verticalspacer"></div>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u7031-bw_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u7013-bw">
+      <div class="temp_no_id" data-orig-id="u7013"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u7013_align_to_page">
+        <span class="colelem placeholder" data-placeholder-for="u9595_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u7029-5_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u7030-4_content"><!-- placeholder node --></span>
+        <div class="clip_frame colelem temp_no_id" data-orig-id="u7045"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/esvendo-logo-2.png" alt="" data-image-width="121" data-image-height="41" data-orig-id="u7045_img" src="images/blank.gif"/>
+        </div>
+        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u7026-4_content"><!-- placeholder node --></span>
+        <div class="colelem" id="u9592"><!-- simple frame --></div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u7028-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u11799-4_content"><!-- placeholder node --></span>
+        <span class="colelem placeholder" data-placeholder-for="u11808_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="u11839"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u7038"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/twitter-button.svg" alt="" data-mu-svgfallback="images/twitter%20button_poster_.png" data-image-width="61" data-image-height="52" data-orig-id="u11828" src="images/blank.gif"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u7040"><!-- svg -->
+          <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook-button.svg" alt="" data-mu-svgfallback="images/facebook%20button_poster_.png" data-image-width="54" data-image-height="49" data-orig-id="u7041" src="images/blank.gif"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u7042"><!-- svg -->
+          <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/google--button.svg" alt="" data-mu-svgfallback="images/google-%20button_poster_.png" data-image-width="52" data-image-height="47" data-orig-id="u11817" src="images/blank.gif"/>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu7015"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u7015-bw_content"><!-- placeholder node --></span>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u13479-4-bw_content"><!-- placeholder node --></span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3790713428" type="text/javascript"></script>
+  <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3918880840" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4244854265" type="text/javascript"></script>
+  <script src="scripts/jquery.museresponsive.js?3895133147" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.fullPage('#page');/* 100% height page */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+if(5 == 1){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li>";
+}
+else if(5 == 2){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li>";
+}
+else if(5 == 3){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li>";
+}
+else if(5 == 4){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li>";
+}
+else if(5 == 5){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li>";
+}
+else if(5 == 6){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li>";
+}
+else if(5 == 7){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li>";
+}
+else if(5 == 8){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li><li><a href='#'>Menu Link 8</a></li>";
+}
+else if(5 == 9){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li><li><a href='#'>Menu Link 8</a></li><li><a href='#'>Menu Link 9</a></li>";
+}
+else if(5 == 10){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li><li><a href='#'>Menu Link 8</a></li><li><a href='#'>Menu Link 9</a></li><li><a href='#'>Menu Link 10</a></li>";
+}
+else if(5 == 11){
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li><li><a href='#'>Menu Link 8</a></li><li><a href='#'>Menu Link 9</a></li><li><a href='#'>Menu Link 10</a></li><li><a href='#'>Menu Link 11</a></li>";
+}
+else {
+document.getElementById('items').innerHTML = "<li><a href='./home.html'>HOME</a></li><li><a href='./about-us.html'>WHO WE ARE</a></li><li><a href='./products.html'>PRODUCTS</a></li><li><a href='#'>HOW IT WORKS</a></li><li><a href='./about-us.html'>CONTACT US</a></li><li><a href='#'>Menu Link 6</a></li><li><a href='#'>Menu Link 7</a></li><li><a href='#'>Menu Link 8</a></li><li><a href='#'>Menu Link 9</a></li><li><a href='#'>Menu Link 10</a></li><li><a href='#'>Menu Link 11</a></li><li><a href='#'>Menu Link 12</a></li>";
+}
+</script>
+<script>
+/*!
+ * classie - class helper functions
+ * from bonzo https://github.com/ded/bonzo
+ *
+ * classie.has( elem, 'my-class' ) -> true/false
+ * classie.add( elem, 'my-new-class' )
+ * classie.remove( elem, 'my-unwanted-class' )
+ * classie.toggle( elem, 'my-class' )
+ */
+
+/*jshint browser: true, strict: true, undef: true */
+/*global define: false */
+
+( function( window ) {
+
+'use strict';
+
+// class helper functions from bonzo https://github.com/ded/bonzo
+
+function classReg( className ) {
+  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+}
+
+// classList support for class management
+// altho to be fair, the api sucks because it won't accept multiple classes at once
+var hasClass, addClass, removeClass;
+
+if ( 'classList' in document.documentElement ) {
+  hasClass = function( elem, c ) {
+    return elem.classList.contains( c );
+  };
+  addClass = function( elem, c ) {
+    elem.classList.add( c );
+  };
+  removeClass = function( elem, c ) {
+    elem.classList.remove( c );
+  };
+}
+else {
+  hasClass = function( elem, c ) {
+    return classReg( c ).test( elem.className );
+  };
+  addClass = function( elem, c ) {
+    if ( !hasClass( elem, c ) ) {
+      elem.className = elem.className + ' ' + c;
+    }
+  };
+  removeClass = function( elem, c ) {
+    elem.className = elem.className.replace( classReg( c ), ' ' );
+  };
+}
+
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+
+var classie = {
+  // full names
+  hasClass: hasClass,
+  addClass: addClass,
+  removeClass: removeClass,
+  toggleClass: toggleClass,
+  // short names
+  has: hasClass,
+  add: addClass,
+  remove: removeClass,
+  toggle: toggleClass
+};
+
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else {
+  // browser global
+  window.classie = classie;
+}
+
+})( window );
+</script>
+<script>
+(function() {
+	var triggerBttn = document.getElementById( 'trigger-overlay' ),
+		overlay = document.querySelector( 'div.overlay' ),
+		closeBttn = overlay.querySelector( 'button.overlay-close' );
+		transEndEventNames = {
+			'WebkitTransition': 'webkitTransitionEnd',
+			'MozTransition': 'transitionend',
+			'OTransition': 'oTransitionEnd',
+			'msTransition': 'MSTransitionEnd',
+			'transition': 'transitionend'
+		},
+		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+		support = { transitions : Modernizr.csstransitions };
+
+	function toggleOverlay() {
+		if( classie.has( overlay, 'open' ) ) {
+			classie.remove( overlay, 'open' );
+			classie.add( overlay, 'close' );
+			var onEndTransitionFn = function( ev ) {
+				if( support.transitions ) {
+					if( ev.propertyName !== 'visibility' ) return;
+					this.removeEventListener( transEndEventName, onEndTransitionFn );
+				}
+				classie.remove( overlay, 'close' );
+			};
+			if( support.transitions ) {
+				overlay.addEventListener( transEndEventName, onEndTransitionFn );
+			}
+			else {
+				onEndTransitionFn();
+			}
+		}
+		else if( !classie.has( overlay, 'close' ) ) {
+			classie.add( overlay, 'open' );
+		}
+	}
+
+	triggerBttn.addEventListener( 'click', toggleOverlay );
+	closeBttn.addEventListener( 'click', toggleOverlay );
+})();
+</script>
+<script>
+/*! jQuery UI - v1.11.4 - 2016-03-29
+* http://jqueryui.com
+* Includes: effect.js
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+(function(t){"function"==typeof define&&define.amd?define(["jquery"],t):t(jQuery)})(function(t){var e="ui-effects-",i=t;t.effects={effect:{}},function(t,e){function i(t,e,i){var s=c[e.type]||{};return null==t?i||!e.def?null:e.def:(t=s.floor?~~t:parseFloat(t),isNaN(t)?e.def:s.mod?(t+s.mod)%s.mod:0>t?0:t>s.max?s.max:t)}function s(i){var s=l(),n=s._rgba=[];return i=i.toLowerCase(),f(h,function(t,a){var o,r=a.re.exec(i),h=r&&a.parse(r),l=a.space||"rgba";return h?(o=s[l](h),s[u[l].cache]=o[u[l].cache],n=s._rgba=o._rgba,!1):e}),n.length?("0,0,0,0"===n.join()&&t.extend(n,a.transparent),s):a[i]}function n(t,e,i){return i=(i+1)%1,1>6*i?t+6*(e-t)*i:1>2*i?e:2>3*i?t+6*(e-t)*(2/3-i):t}var a,o="backgroundColor borderBottomColor borderLeftColor borderRightColor borderTopColor color columnRuleColor outlineColor textDecorationColor textEmphasisColor",r=/^([\-+])=\s*(\d+\.?\d*)/,h=[{re:/rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,parse:function(t){return[t[1],t[2],t[3],t[4]]}},{re:/rgba?\(\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,parse:function(t){return[2.55*t[1],2.55*t[2],2.55*t[3],t[4]]}},{re:/#([a-f0-9]{2})([a-f0-9]{2})([a-f0-9]{2})/,parse:function(t){return[parseInt(t[1],16),parseInt(t[2],16),parseInt(t[3],16)]}},{re:/#([a-f0-9])([a-f0-9])([a-f0-9])/,parse:function(t){return[parseInt(t[1]+t[1],16),parseInt(t[2]+t[2],16),parseInt(t[3]+t[3],16)]}},{re:/hsla?\(\s*(\d+(?:\.\d+)?)\s*,\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,space:"hsla",parse:function(t){return[t[1],t[2]/100,t[3]/100,t[4]]}}],l=t.Color=function(e,i,s,n){return new t.Color.fn.parse(e,i,s,n)},u={rgba:{props:{red:{idx:0,type:"byte"},green:{idx:1,type:"byte"},blue:{idx:2,type:"byte"}}},hsla:{props:{hue:{idx:0,type:"degrees"},saturation:{idx:1,type:"percent"},lightness:{idx:2,type:"percent"}}}},c={"byte":{floor:!0,max:255},percent:{max:1},degrees:{mod:360,floor:!0}},d=l.support={},p=t("<p>")[0],f=t.each;p.style.cssText="background-color:rgba(1,1,1,.5)",d.rgba=p.style.backgroundColor.indexOf("rgba")>-1,f(u,function(t,e){e.cache="_"+t,e.props.alpha={idx:3,type:"percent",def:1}}),l.fn=t.extend(l.prototype,{parse:function(n,o,r,h){if(n===e)return this._rgba=[null,null,null,null],this;(n.jquery||n.nodeType)&&(n=t(n).css(o),o=e);var c=this,d=t.type(n),p=this._rgba=[];return o!==e&&(n=[n,o,r,h],d="array"),"string"===d?this.parse(s(n)||a._default):"array"===d?(f(u.rgba.props,function(t,e){p[e.idx]=i(n[e.idx],e)}),this):"object"===d?(n instanceof l?f(u,function(t,e){n[e.cache]&&(c[e.cache]=n[e.cache].slice())}):f(u,function(e,s){var a=s.cache;f(s.props,function(t,e){if(!c[a]&&s.to){if("alpha"===t||null==n[t])return;c[a]=s.to(c._rgba)}c[a][e.idx]=i(n[t],e,!0)}),c[a]&&0>t.inArray(null,c[a].slice(0,3))&&(c[a][3]=1,s.from&&(c._rgba=s.from(c[a])))}),this):e},is:function(t){var i=l(t),s=!0,n=this;return f(u,function(t,a){var o,r=i[a.cache];return r&&(o=n[a.cache]||a.to&&a.to(n._rgba)||[],f(a.props,function(t,i){return null!=r[i.idx]?s=r[i.idx]===o[i.idx]:e})),s}),s},_space:function(){var t=[],e=this;return f(u,function(i,s){e[s.cache]&&t.push(i)}),t.pop()},transition:function(t,e){var s=l(t),n=s._space(),a=u[n],o=0===this.alpha()?l("transparent"):this,r=o[a.cache]||a.to(o._rgba),h=r.slice();return s=s[a.cache],f(a.props,function(t,n){var a=n.idx,o=r[a],l=s[a],u=c[n.type]||{};null!==l&&(null===o?h[a]=l:(u.mod&&(l-o>u.mod/2?o+=u.mod:o-l>u.mod/2&&(o-=u.mod)),h[a]=i((l-o)*e+o,n)))}),this[n](h)},blend:function(e){if(1===this._rgba[3])return this;var i=this._rgba.slice(),s=i.pop(),n=l(e)._rgba;return l(t.map(i,function(t,e){return(1-s)*n[e]+s*t}))},toRgbaString:function(){var e="rgba(",i=t.map(this._rgba,function(t,e){return null==t?e>2?1:0:t});return 1===i[3]&&(i.pop(),e="rgb("),e+i.join()+")"},toHslaString:function(){var e="hsla(",i=t.map(this.hsla(),function(t,e){return null==t&&(t=e>2?1:0),e&&3>e&&(t=Math.round(100*t)+"%"),t});return 1===i[3]&&(i.pop(),e="hsl("),e+i.join()+")"},toHexString:function(e){var i=this._rgba.slice(),s=i.pop();return e&&i.push(~~(255*s)),"#"+t.map(i,function(t){return t=(t||0).toString(16),1===t.length?"0"+t:t}).join("")},toString:function(){return 0===this._rgba[3]?"transparent":this.toRgbaString()}}),l.fn.parse.prototype=l.fn,u.hsla.to=function(t){if(null==t[0]||null==t[1]||null==t[2])return[null,null,null,t[3]];var e,i,s=t[0]/255,n=t[1]/255,a=t[2]/255,o=t[3],r=Math.max(s,n,a),h=Math.min(s,n,a),l=r-h,u=r+h,c=.5*u;return e=h===r?0:s===r?60*(n-a)/l+360:n===r?60*(a-s)/l+120:60*(s-n)/l+240,i=0===l?0:.5>=c?l/u:l/(2-u),[Math.round(e)%360,i,c,null==o?1:o]},u.hsla.from=function(t){if(null==t[0]||null==t[1]||null==t[2])return[null,null,null,t[3]];var e=t[0]/360,i=t[1],s=t[2],a=t[3],o=.5>=s?s*(1+i):s+i-s*i,r=2*s-o;return[Math.round(255*n(r,o,e+1/3)),Math.round(255*n(r,o,e)),Math.round(255*n(r,o,e-1/3)),a]},f(u,function(s,n){var a=n.props,o=n.cache,h=n.to,u=n.from;l.fn[s]=function(s){if(h&&!this[o]&&(this[o]=h(this._rgba)),s===e)return this[o].slice();var n,r=t.type(s),c="array"===r||"object"===r?s:arguments,d=this[o].slice();return f(a,function(t,e){var s=c["object"===r?t:e.idx];null==s&&(s=d[e.idx]),d[e.idx]=i(s,e)}),u?(n=l(u(d)),n[o]=d,n):l(d)},f(a,function(e,i){l.fn[e]||(l.fn[e]=function(n){var a,o=t.type(n),h="alpha"===e?this._hsla?"hsla":"rgba":s,l=this[h](),u=l[i.idx];return"undefined"===o?u:("function"===o&&(n=n.call(this,u),o=t.type(n)),null==n&&i.empty?this:("string"===o&&(a=r.exec(n),a&&(n=u+parseFloat(a[2])*("+"===a[1]?1:-1))),l[i.idx]=n,this[h](l)))})})}),l.hook=function(e){var i=e.split(" ");f(i,function(e,i){t.cssHooks[i]={set:function(e,n){var a,o,r="";if("transparent"!==n&&("string"!==t.type(n)||(a=s(n)))){if(n=l(a||n),!d.rgba&&1!==n._rgba[3]){for(o="backgroundColor"===i?e.parentNode:e;(""===r||"transparent"===r)&&o&&o.style;)try{r=t.css(o,"backgroundColor"),o=o.parentNode}catch(h){}n=n.blend(r&&"transparent"!==r?r:"_default")}n=n.toRgbaString()}try{e.style[i]=n}catch(h){}}},t.fx.step[i]=function(e){e.colorInit||(e.start=l(e.elem,i),e.end=l(e.end),e.colorInit=!0),t.cssHooks[i].set(e.elem,e.start.transition(e.end,e.pos))}})},l.hook(o),t.cssHooks.borderColor={expand:function(t){var e={};return f(["Top","Right","Bottom","Left"],function(i,s){e["border"+s+"Color"]=t}),e}},a=t.Color.names={aqua:"#00ffff",black:"#000000",blue:"#0000ff",fuchsia:"#ff00ff",gray:"#808080",green:"#008000",lime:"#00ff00",maroon:"#800000",navy:"#000080",olive:"#808000",purple:"#800080",red:"#ff0000",silver:"#c0c0c0",teal:"#008080",white:"#ffffff",yellow:"#ffff00",transparent:[null,null,null,0],_default:"#ffffff"}}(i),function(){function e(e){var i,s,n=e.ownerDocument.defaultView?e.ownerDocument.defaultView.getComputedStyle(e,null):e.currentStyle,a={};if(n&&n.length&&n[0]&&n[n[0]])for(s=n.length;s--;)i=n[s],"string"==typeof n[i]&&(a[t.camelCase(i)]=n[i]);else for(i in n)"string"==typeof n[i]&&(a[i]=n[i]);return a}function s(e,i){var s,n,o={};for(s in i)n=i[s],e[s]!==n&&(a[s]||(t.fx.step[s]||!isNaN(parseFloat(n)))&&(o[s]=n));return o}var n=["add","remove","toggle"],a={border:1,borderBottom:1,borderColor:1,borderLeft:1,borderRight:1,borderTop:1,borderWidth:1,margin:1,padding:1};t.each(["borderLeftStyle","borderRightStyle","borderBottomStyle","borderTopStyle"],function(e,s){t.fx.step[s]=function(t){("none"!==t.end&&!t.setAttr||1===t.pos&&!t.setAttr)&&(i.style(t.elem,s,t.end),t.setAttr=!0)}}),t.fn.addBack||(t.fn.addBack=function(t){return this.add(null==t?this.prevObject:this.prevObject.filter(t))}),t.effects.animateClass=function(i,a,o,r){var h=t.speed(a,o,r);return this.queue(function(){var a,o=t(this),r=o.attr("class")||"",l=h.children?o.find("*").addBack():o;l=l.map(function(){var i=t(this);return{el:i,start:e(this)}}),a=function(){t.each(n,function(t,e){i[e]&&o[e+"Class"](i[e])})},a(),l=l.map(function(){return this.end=e(this.el[0]),this.diff=s(this.start,this.end),this}),o.attr("class",r),l=l.map(function(){var e=this,i=t.Deferred(),s=t.extend({},h,{queue:!1,complete:function(){i.resolve(e)}});return this.el.animate(this.diff,s),i.promise()}),t.when.apply(t,l.get()).done(function(){a(),t.each(arguments,function(){var e=this.el;t.each(this.diff,function(t){e.css(t,"")})}),h.complete.call(o[0])})})},t.fn.extend({addClass:function(e){return function(i,s,n,a){return s?t.effects.animateClass.call(this,{add:i},s,n,a):e.apply(this,arguments)}}(t.fn.addClass),removeClass:function(e){return function(i,s,n,a){return arguments.length>1?t.effects.animateClass.call(this,{remove:i},s,n,a):e.apply(this,arguments)}}(t.fn.removeClass),toggleClass:function(e){return function(i,s,n,a,o){return"boolean"==typeof s||void 0===s?n?t.effects.animateClass.call(this,s?{add:i}:{remove:i},n,a,o):e.apply(this,arguments):t.effects.animateClass.call(this,{toggle:i},s,n,a)}}(t.fn.toggleClass),switchClass:function(e,i,s,n,a){return t.effects.animateClass.call(this,{add:i,remove:e},s,n,a)}})}(),function(){function i(e,i,s,n){return t.isPlainObject(e)&&(i=e,e=e.effect),e={effect:e},null==i&&(i={}),t.isFunction(i)&&(n=i,s=null,i={}),("number"==typeof i||t.fx.speeds[i])&&(n=s,s=i,i={}),t.isFunction(s)&&(n=s,s=null),i&&t.extend(e,i),s=s||i.duration,e.duration=t.fx.off?0:"number"==typeof s?s:s in t.fx.speeds?t.fx.speeds[s]:t.fx.speeds._default,e.complete=n||i.complete,e}function s(e){return!e||"number"==typeof e||t.fx.speeds[e]?!0:"string"!=typeof e||t.effects.effect[e]?t.isFunction(e)?!0:"object"!=typeof e||e.effect?!1:!0:!0}t.extend(t.effects,{version:"1.11.4",save:function(t,i){for(var s=0;i.length>s;s++)null!==i[s]&&t.data(e+i[s],t[0].style[i[s]])},restore:function(t,i){var s,n;for(n=0;i.length>n;n++)null!==i[n]&&(s=t.data(e+i[n]),void 0===s&&(s=""),t.css(i[n],s))},setMode:function(t,e){return"toggle"===e&&(e=t.is(":hidden")?"show":"hide"),e},getBaseline:function(t,e){var i,s;switch(t[0]){case"top":i=0;break;case"middle":i=.5;break;case"bottom":i=1;break;default:i=t[0]/e.height}switch(t[1]){case"left":s=0;break;case"center":s=.5;break;case"right":s=1;break;default:s=t[1]/e.width}return{x:s,y:i}},createWrapper:function(e){if(e.parent().is(".ui-effects-wrapper"))return e.parent();var i={width:e.outerWidth(!0),height:e.outerHeight(!0),"float":e.css("float")},s=t("<div></div>").addClass("ui-effects-wrapper").css({fontSize:"100%",background:"transparent",border:"none",margin:0,padding:0}),n={width:e.width(),height:e.height()},a=document.activeElement;try{a.id}catch(o){a=document.body}return e.wrap(s),(e[0]===a||t.contains(e[0],a))&&t(a).focus(),s=e.parent(),"static"===e.css("position")?(s.css({position:"relative"}),e.css({position:"relative"})):(t.extend(i,{position:e.css("position"),zIndex:e.css("z-index")}),t.each(["top","left","bottom","right"],function(t,s){i[s]=e.css(s),isNaN(parseInt(i[s],10))&&(i[s]="auto")}),e.css({position:"relative",top:0,left:0,right:"auto",bottom:"auto"})),e.css(n),s.css(i).show()},removeWrapper:function(e){var i=document.activeElement;return e.parent().is(".ui-effects-wrapper")&&(e.parent().replaceWith(e),(e[0]===i||t.contains(e[0],i))&&t(i).focus()),e},setTransition:function(e,i,s,n){return n=n||{},t.each(i,function(t,i){var a=e.cssUnit(i);a[0]>0&&(n[i]=a[0]*s+a[1])}),n}}),t.fn.extend({effect:function(){function e(e){function i(){t.isFunction(a)&&a.call(n[0]),t.isFunction(e)&&e()}var n=t(this),a=s.complete,r=s.mode;(n.is(":hidden")?"hide"===r:"show"===r)?(n[r](),i()):o.call(n[0],s,i)}var s=i.apply(this,arguments),n=s.mode,a=s.queue,o=t.effects.effect[s.effect];return t.fx.off||!o?n?this[n](s.duration,s.complete):this.each(function(){s.complete&&s.complete.call(this)}):a===!1?this.each(e):this.queue(a||"fx",e)},show:function(t){return function(e){if(s(e))return t.apply(this,arguments);var n=i.apply(this,arguments);return n.mode="show",this.effect.call(this,n)}}(t.fn.show),hide:function(t){return function(e){if(s(e))return t.apply(this,arguments);var n=i.apply(this,arguments);return n.mode="hide",this.effect.call(this,n)}}(t.fn.hide),toggle:function(t){return function(e){if(s(e)||"boolean"==typeof e)return t.apply(this,arguments);var n=i.apply(this,arguments);return n.mode="toggle",this.effect.call(this,n)}}(t.fn.toggle),cssUnit:function(e){var i=this.css(e),s=[];return t.each(["em","px","%","pt"],function(t,e){i.indexOf(e)>0&&(s=[parseFloat(i),e])}),s}})}(),function(){var e={};t.each(["Quad","Cubic","Quart","Quint","Expo"],function(t,i){e[i]=function(e){return Math.pow(e,t+2)}}),t.extend(e,{Sine:function(t){return 1-Math.cos(t*Math.PI/2)},Circ:function(t){return 1-Math.sqrt(1-t*t)},Elastic:function(t){return 0===t||1===t?t:-Math.pow(2,8*(t-1))*Math.sin((80*(t-1)-7.5)*Math.PI/15)},Back:function(t){return t*t*(3*t-2)},Bounce:function(t){for(var e,i=4;((e=Math.pow(2,--i))-1)/11>t;);return 1/Math.pow(4,3-i)-7.5625*Math.pow((3*e-2)/22-t,2)}}),t.each(e,function(e,i){t.easing["easeIn"+e]=i,t.easing["easeOut"+e]=function(t){return 1-i(1-t)},t.easing["easeInOut"+e]=function(t){return.5>t?i(2*t)/2:1-i(-2*t+2)/2}})}(),t.effects});
+</script>
+<script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top -0
+        }, 1000, 'linear');
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+   </body>
+</html>
